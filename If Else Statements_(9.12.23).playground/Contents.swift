@@ -32,7 +32,7 @@ else
 {
     print("Go to a tutor for outside help")
 }
-//------------------- PART 5 - ON YOUR OWN - PROBLEM SETS 1-4  -------------------
+//------------------- PART 5 - ON YOUR OWN - PROBLEM SETS 1-3  -------------------
 /*Problem Set 1:
 1. Create two variables of type Int (integer)
 2. Use the greater than OR less than operator in your conditional statement and create an if/else statement
@@ -43,13 +43,15 @@ else
 var intVarOne = 5
 var intVarTwo = 6
 //2 & 3
-if intVarOne < intVarTwo
+if intVarOne > intVarTwo
 {
     //4
+    print("That is correct")
 }
 else
 {
     //4
+    print("That is incorrect")
     
 }
 
@@ -60,17 +62,34 @@ else
 8. In the code if block, print the concatenation of your two string variables.
 */
 //5
-var stringOne = ""
-var 
-//6
- 
+var stringOne = "one"
+var stringTwo = " two"
+//6 & 7
+if stringOne == "one"
+{
+    //8
+    print(stringOne + stringTwo)
+}
+else
+{
+    print("That is incorrect")
+}
  
 
 /*Problem Set 3:
-
-Create two boolean variables
-
-Create a conditional statement that evaluates to false using a comparison operator of your choice.
-
-Create an if/else statement and in each code block of the if/else statement, print a string of your choice. (2 points)
+ 9. Create two boolean variables
+10. Create a conditional statement that evaluates to false using a comparison operator of your choice.
+11. Create an if/else statement and in each code block of the if/else statement, print a string of your choice. (2 points)
  */
+//9
+var isItTrue = true
+var isItFalse = false
+//10
+if isItTrue != isItFalse
+{
+    print("The condition is true")
+}
+else
+{
+    print("The condition is false")
+}
